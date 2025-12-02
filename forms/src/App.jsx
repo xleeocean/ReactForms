@@ -1,6 +1,6 @@
 import RestaurantsContainer from "./components/RestaurantsContainer";
 import AddRestaurant from "./components/addRestaurant";
-import { data } from "./data/data.js";
+import { restaurants as data } from "../../api/server/data.js";
 import { useState } from "react";
 import "./App.css";
 
