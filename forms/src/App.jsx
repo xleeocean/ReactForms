@@ -9,7 +9,7 @@ function App() {
   const [restaurantState, setRestaurants] = useState([...data]);
 
   const updateRestaurants = (restaurant) => {
-    console.log(restaurant);
+    // console.log(restaurant);
     setRestaurants([...restaurantState, restaurant]);
   };
 
